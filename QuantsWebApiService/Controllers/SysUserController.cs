@@ -13,7 +13,7 @@ namespace QuantsWebApiService.Controllers
 
         public SysUserController(SysUserService sysUserService)
         {
-            _sysUserService = sysUserService;
+             _sysUserService = sysUserService; 
         }
 
         [HttpGet]
