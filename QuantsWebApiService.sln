@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantsRepository", "QuantsRepository\QuantsRepository.csproj", "{16633570-D5E6-4009-83D8-23FEC30BEC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantsWebApiService", "QuantsWebApiService\QuantsWebApiService.csproj", "{47B2AD77-49F9-401F-99F4-1F968E153139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16633570-D5E6-4009-83D8-23FEC30BEC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16633570-D5E6-4009-83D8-23FEC30BEC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16633570-D5E6-4009-83D8-23FEC30BEC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16633570-D5E6-4009-83D8-23FEC30BEC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B2AD77-49F9-401F-99F4-1F968E153139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B2AD77-49F9-401F-99F4-1F968E153139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B2AD77-49F9-401F-99F4-1F968E153139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B2AD77-49F9-401F-99F4-1F968E153139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB202520-DBF9-4A13-914C-9F39FE119EE0}
+	EndGlobalSection
+EndGlobal

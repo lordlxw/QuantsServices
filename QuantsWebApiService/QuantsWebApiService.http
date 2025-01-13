@@ -1,0 +1,6 @@
+@QuantsWebApiService_HostAddress = http://localhost:5149
+
+GET {{QuantsWebApiService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

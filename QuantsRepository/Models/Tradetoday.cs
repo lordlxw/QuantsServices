@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace QuantsRepository.Models;
+
+public partial class Tradetoday
+{
+    public int Id { get; set; }
+
+    public string Tscode { get; set; } = null!;
+
+    public DateTime Tradedate { get; set; }
+
+    public string Tradetime { get; set; } = null!;
+
+    public decimal Tradeprice { get; set; }
+
+    public string Dealtype { get; set; } = null!;
+
+    public short? Brokerid { get; set; }
+
+    public string? Tradeid { get; set; }
+
+    public string? Duration { get; set; }
+
+    public string? Changebp { get; set; }
+
+    public decimal? Netprice { get; set; }
+}
